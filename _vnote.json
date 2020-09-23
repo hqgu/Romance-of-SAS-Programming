@@ -1,0 +1,38 @@
+{
+    "created_time": "2020-08-30T00:16:50Z",
+    "files": [
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-30T00:17:04Z",
+            "modified_time": "2020-08-30T00:17:04Z",
+            "name": "0-作者序.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-30T00:17:04Z",
+            "modified_time": "2020-08-30T00:17:04Z",
+            "name": "C1-人生若只如初见：初识 SAS.md",
+            "tags": [
+            ]
+        },
+        {
+            "attachment_folder": "",
+            "attachments": [
+            ],
+            "created_time": "2020-08-30T00:17:04Z",
+            "modified_time": "2020-08-30T00:17:04Z",
+            "name": "C2-清歌苦调两不厌：夯实基础.md",
+            "tags": [
+            ]
+        }
+    ],
+    "sub_directories": [
+    ],
+    "version": "1"
+}
