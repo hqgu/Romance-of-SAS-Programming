@@ -1,0 +1,11 @@
+%macro ransample_proc(dsin,dsout,Replacement,SampleSize);
+	%if %upcase("&Replacement")="YES"  %then %do;
+	  proc surveyselect data=&dsin out=&dsout method=urs  n=&SampleSize;
+	  run;
+	%end;
+	%else %if %upcase("&Replacement")="NO"  %then %do;
+	 proc surveyselect data=&dsin out=&dsout method=srs  n=&SampleSize;
+	 run;
+	%end;
+	%else %put ERROR: Replacement shout be  yes or no ;
+%mendransample_proc;
